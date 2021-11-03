@@ -96,6 +96,6 @@ main(int argc, char *argv[])
 The library consists of single file `include/subprocess.hpp`.  Copy
 the file into your own project or e.g. into `/usr/local/include/`.
 
-Use `-std=c++11` when compiling the code.
+Use `-std=c++11` when compiling the code. For Mac OS, please specify `g++-5`+ version (instead of the built-in one with version 4.2.1 from xcode).
 
 Unit test suite depends on Boost Test Library.
